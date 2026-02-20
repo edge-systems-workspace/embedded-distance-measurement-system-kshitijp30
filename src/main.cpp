@@ -18,19 +18,13 @@ long distance;
 
 
 void setup() {
+    void setup() {
+        pinMode(trigPin, OUTPUT);
+        pinMode(echoPin, INPUT);
+        Serial.begin(9600);
+    }
 
-    // TODO 5:
-    // Initialize Serial communication (9600 baud rate)
 
-    // TODO 6:
-    // Configure TRIG as OUTPUT
-
-    // TODO 7:
-    // Configure ECHO as INPUT
-
-    // TODO 8:
-    // Print system initialization message
-}
 
 void loop() {
 
